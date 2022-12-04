@@ -95,7 +95,7 @@ class LinkedList:
             if current.data == key and current is self.head:
                 found = True
                 self.head= current.next_node
-            elif: current.data ==key:
+            elif current.data ==key:
                 found = True
                 previous.next_node = current.next_node
             else: 
