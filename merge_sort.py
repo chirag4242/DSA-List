@@ -7,6 +7,7 @@ def merge_sort(list):
         Conquer: Recursively sort the the sublists created in previous step 
         Combine: Merge the sorted sublists in created in the previous step 
     """
+
     if len(list) <= 1:
       return list
 
@@ -30,9 +31,9 @@ def split(list):
 
 def merge(left,right):
     """
-        Merges two lists (arrays), sorting them in the process 
+       Merges two lists (arrays), sorting them in the process 
        Returns new merge list  
-    """
+    """ 
     l = []
     i = 0
     j = 0
@@ -55,6 +56,16 @@ def merge(left,right):
         
     return l
 
+def verify_sorted(list):
+    n= len(list)
+    if n == 0 or n == 1: 
+        return True
+
+    return list[0] < list[1] and verify_sorted(list[1:])  
+
+
+
 list = [54, 62, 93, 17, 77, 31, 44, 55, 20]
 l = merge_sort(list)
 print(l)
+print(verify_sorted(l))
