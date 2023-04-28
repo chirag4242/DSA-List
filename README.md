@@ -1,11 +1,22 @@
 # Algorithm List (DSA Practice)
 
-#### [1. ArrayList (Linear Time Algorithm)](./arraylist.py)
+Hello everyone, I am sharing my DSA problems and its solutions. If you want to contribute any problems-solving question or check my code feel free to contribute in this repository.  
 
-#### [2. Binary Search (logarithmic time complexity)](./binerySearch.py)
+- [`ArrayList`](./arraylist.py)
+  -  Linear time Algorithm
+- [`Binary Search`](./binerySearch.py)
+  - Logarithmic time complexity
+- [`Recursive Binary Search`](./recursive.py)
+  - Logarithmic time complexity but space complexity will depends on Language programming language if it support tail call elimination
+- [`LinkedList`](./linked_list.py)
+  - adding data to the head takes o(1) constant time but find specific data or key takes linear Time O(n)
+  - Insert takes o(1) time but finding a node at insertion position takes o(n) time Overall it takes o(n) time  
+  - Remove takes o(1) time but finding a node takes o(n) time so overall it takes o(n) time
+- [`merge sort`](./merge_sort.py)
+  - O(K N logN) time complexity
 
-#### [3. Recursive Binary Search (logarithmic time complexity but space complexity will depends on Language programming language if it support tail call elimination)](./recursive.py)
-
-#### [4. LinkedList (<Br/> &emsp;1. adding data to the head takes o(1) constant time but find specific data or key takes linear Time O(n) <Br />&emsp; 2. Insert takes o(1) time but finding a node at insertion position takes o(n) time Overall it takes o(n) time <Br />&emsp; 3. Remove takes o(1) time but finding a node takes o(n) time so overall it takes o(n) time<Br />&emsp;) ](./linked_list.py)
-
-#### [5. merge sort (O(K N logN) time complexity)](./merge_sort.py)
+## Author and Social
+[![chirag42](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=flat-square&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/chirag42/) 
+[![@chirag4242](https://img.shields.io/badge/GitHub-181717.svg?style=flat-square&logo=GitHub&logoColor=white)](https://www.github.com/chirag4242)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat-square&logo=firefox&logoColor=#FF7139)](https://cio-app.herokuapp.com/)
+[![Projects](https://img.shields.io/badge/Projects%20Site-4285F4?style=flat-square&logo=GoogleChrome&logoColor=white)](https://sites.google.com/view/chiragpatil/home)
